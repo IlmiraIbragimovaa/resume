@@ -1,0 +1,224 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+* *::before *::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    min-width: 1200px;
+    font-family: helvetica, Arial, sans-serif;
+    margin: 0 auto;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+} 
+
+h2 {
+    margin: 0;
+    padding: 0;
+} 
+
+.flex {
+    display: flex;
+}
+
+.site {
+    justify-content: space-between;
+    width: 70%;
+}
+
+.header {
+    margin-right: 0;
+    margin: 0;
+    background-color: #a7a09a;
+    width: 30%;
+}
+
+.h1-title {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.info-me-discr {
+    text-align: center;
+    font-size: 25px;
+}
+
+.info-me {
+    margin-bottom: 70px;
+}
+
+.foto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    height: 400px;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 3px solid black;
+    margin-bottom: 20px;
+}
+
+.social {
+    padding-left: 60px;
+    flex-direction: column;
+}
+
+.social-links {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-left: 60px;
+    font-style: normal;
+}
+
+.img-backr-1 {
+    background-image: url(telephone.png);
+    background-size: 40px;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.img-backr-2 {
+    background-image: url(email\ \(2\).png);
+    background-size: 40px;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.img-backr-3 {
+    background-image: url(location-pin.png);
+    background-size: 40px;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.img-backr-4 {
+    background-image: url(free-icon-instagram-logo-4406253.png);
+    background-size: 40px;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+/* pro me */
+
+.me {
+    width: 40%;
+    padding-top: 50px;
+}
+
+.info-items {
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-right: 70px;
+    text-align: center;
+}
+
+.title-me {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 26px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+}
+
+.me-infotext-bolt {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.me-infotext-normal {
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+/* Портфолио */
+
+.portfolio {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.portfolio-left {
+    margin: 0;
+    width: 15%;
+}
+
+.portfolio-right {
+    margin: 0;
+    width: 15%;
+}
+
+
+.portfolio {
+    padding: 111px 0;
+    background-color: #F6F6F6;
+}
+
+.section_title_portfolio {
+    margin-bottom: 47px;
+    text-align: center;
+}
+
+.bloc_portfollio {
+    margin: 0 auto;
+    max-width: 950px;
+}
+
+.kniga_1 {
+    justify-content: space-around;
+}
+
+.kniga_1:last-child {
+    margin-bottom: 50px;
+}
+
+.title-port-item {
+    text-align: center;
+}
+
+.img-kniga-1 {
+    width: 400px;
+    transition: 1.2s;
+    border-radius: 5px;
+    height: 310px;    
+}
+
+.img-kniga-1:hover {
+    transform: scale(2.5);
+    border-radius: 5px;
+}
+
+.img-kniga-big {
+    width: 880px;
+    border-radius: 5px;
+}
+
+
+.kniga-discr {
+    margin-top: 15px;
+    font-size: 16px;
+    text-align: center;
+}
